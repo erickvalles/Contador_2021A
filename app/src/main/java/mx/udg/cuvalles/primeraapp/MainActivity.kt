@@ -17,9 +17,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Log.i("mi_app","Estoy en el método onCreate")
         //inicializar las variables
-
+        //explicación git
         primerBoton = findViewById(R.id.primer_boton)
         segundoBoton = findViewById(R.id.segundo_boton)
+
+        //estoy añadiendo un comentario en una nueva rama
+
 
         primerBoton.setOnClickListener(View.OnClickListener {
             val miIntent = Intent(this,SegundaActivity::class.java)
